@@ -1,0 +1,25 @@
+
+.calculator{
+    width: 400px;
+    background-color: #2E8463;
+    padding: 50px 30px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 8 px;
+    box-shadow: 0 20px 50px rgb(40, 113, 85, 0.4);
+}
+
+.display, .display input{
+    width: 100%;
+}
+
+.display input{
+    padding: 15px 10px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 35px;
+}
