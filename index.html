@@ -4,16 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
     <title>JS Calculator</title>
 </head>
 <body>
+    <header>
+            <input type="color" id="input-color1" />
+            <input type="color" id="input-color2" />
+    </header>
     <div class="calculator">
         <div class="display">
             <input type="text" placeholder="0" id="display" disabled />
         </div>
         <div class="buttons">
 
-            <input type="button" value="DEL" id="DEL">
+            <input type="button" value="C" id="clear">
+
+            <input type="button" value="DEL" id="del">
             <input type="button" value="/" class="input-button">
             <input type="button" value="*" class="input-button">
             
@@ -31,11 +38,13 @@
             <input type="button" value="2" class="input-button">
             <input type="button" value="3" class="input-button">
             
-            <input type="button" value="=" class="input-button">
+            <input type="button" value="=" id="equal">
             <input type="button" value="0" class="input-button">
             <input type="button" value="." class="input-button">
 
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
